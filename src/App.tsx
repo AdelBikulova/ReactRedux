@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       {/* <Lesson16 /> */}
-      <Homework16/>
+      <Homework16 />
     </div>
   )
 }
