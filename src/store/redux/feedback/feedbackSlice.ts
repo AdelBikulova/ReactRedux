@@ -1,10 +1,6 @@
 import { createAppSlice } from "store/createAppSlice"
+import { FeedbackStateSlice } from "./types"
 // import { PayloadAction } from "@reduxjs/toolkit"
-
-interface FeedbackStateSlice {
-  likes: number
-  dislikes: number
-}
 
 const feedbackInitialState: FeedbackStateSlice = {
   likes: 0,
