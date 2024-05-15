@@ -1,21 +1,19 @@
 import styled from "@emotion/styled";
 
 interface ButtonComponentProps {
-  disabled: boolean;
+  disabled: boolean
 }
 
 export const ButtonComponent = styled.button<ButtonComponentProps>`
-  width: 50%;
-  max-width: 200px;
-  height: 60px;
+  width: 100%;
+  height: 50px;
   outline: none;
   border: none;
-  margin-top: -80px;
-  margin-left: 70vw;
-  border-radius: 20px;
+  border-radius: 4px;
   padding: 10px;
-  background: ${({ disabled }) => (disabled ? "grey" : "#045fde;")};
-  color: #f3f7fa;
-  font-size: 26px;
+  /* background-color: #1f27f5; */
+  background: ${({ disabled }) => (disabled ? "grey" : "#239FEC")};
+  color: white;
+  font-size: 16px;
   cursor: pointer;
-`;
+`

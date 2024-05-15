@@ -1,10 +1,12 @@
-import { Homework16Wrapper } from './styles';
-import Counter from "components/Counter/Counter"
+import Counter from "components/Counter/Counter";
+import { CounterWrapper, Homework16Wrapper } from "./styles";
 
 function Homework16() {
   return (
     <Homework16Wrapper>
-      <Counter />
+      <CounterWrapper>
+        <Counter />
+      </CounterWrapper>
     </Homework16Wrapper>
   )
 }
