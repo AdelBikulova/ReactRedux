@@ -1,11 +1,11 @@
-import styled from "@emotion/styled";
+import styled from "@emotion/styled"
 
 export const CounterWrapper = styled.div`
   display: flex;
   gap: 20px;
   align-items: center;
   padding: 20px;
-  margin-top: 5git00px;
+  margin-top: 500px;
   background: rgb(219, 210, 240);
 `
 
