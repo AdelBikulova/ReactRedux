@@ -31,11 +31,11 @@ function Feedback() {
       <FeedbackResult>
         <ButtonControl>
           <Icon src={Like} alt="Like" onClick={addLike} />
-          {likes} 
+          {likes}
         </ButtonControl>
         <ButtonControl>
           <Icon src={Dislike} alt="Dislike" onClick={addDislike} />
-          {dislikes} 
+          {dislikes}
         </ButtonControl>
       </FeedbackResult>
       <Button name="Reset Results" onButtonClick={resetResults} />
@@ -43,4 +43,4 @@ function Feedback() {
   )
 }
 
-export default Feedback;
+export default Feedback

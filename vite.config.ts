@@ -11,6 +11,7 @@ export default defineConfig({
       'assets': path.resolve(__dirname, 'src/assets'),
       'components': path.resolve(__dirname, 'src/components'),
       'homeworks': path.resolve(__dirname, 'src/homeworks'),
+      'consultation': path.resolve(__dirname, 'src/consultations'),
       'lessons': path.resolve(__dirname, 'src/lessons'),
       'pages': path.resolve(__dirname, 'src/pages'),
       'store': path.resolve(__dirname, 'src/store'),
