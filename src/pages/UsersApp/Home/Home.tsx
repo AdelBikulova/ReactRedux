@@ -27,10 +27,12 @@ function Home() {
         formik.resetForm()
       } else {
         alert("Please fill in all the fields!")
+        // второй вариант  helpers.resetForm(), вместо formik.resetForm()
       }
     },
   })
 
+  // первый вариант
   return (
     <HomePageWrapper>
       <UserForm onSubmit={formik.handleSubmit}>
@@ -64,4 +66,37 @@ function Home() {
   )
 }
 
-export default Home;
+// второй вариант - teacher
+
+// return (
+//   <HomePageWrapper>
+//     <UserForm onSubmit={formik.handleSubmit}>
+//       <UserFormName>Create User</UserFormName>
+//       <Input
+//         name="firstlastName"
+//         placeholder="Enter fullname"
+//         value={formik.values.firstlastName}
+//         label="First/Last name"
+//         onInputChange={formik.handleChange}
+//       />
+//       <Input
+//         name="age"
+//         placeholder="Enter age"
+//         value={formik.values.age}
+//         label="Age"
+//         onInputChange={formik.handleChange}
+//       />
+//       <Input
+//         name="jobTitle"
+//         placeholder="Enter job"
+//         value={formik.values.jobTitle}
+//         label="Job title"
+//         onInputChange={formik.handleChange}
+//       />
+//       <Button name="Create" type="submit" />
+//     </UserForm>
+//   </HomePageWrapper>
+// )
+// }
+
+export default Home
