@@ -6,9 +6,9 @@ interface ButtonComponentProps {
 
 export const ButtonComponent = styled.button<ButtonComponentProps>`
   width: auto;
-  height: 60px;
+  height: 80px;
   outline: none;
-  border: 2px solid #2f5a6e;
+  border: 2px solid #01050a;
   border-radius: 10px;
   padding: 10px;
   /* background-color: #1f27f5; */
