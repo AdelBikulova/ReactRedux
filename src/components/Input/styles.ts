@@ -1,29 +1,32 @@
-import styled from "@emotion/styled";
+import styled from "@emotion/styled"
 
 export const InputComponentContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 4px;
   width: 100%;
-  height: fit-content;`
+  height: fit-content;
+`
 
 export const InputLabel = styled.label`
   font-size: 16px;
-  color: #6f6f6f;
+  color: #292828;
 `
 
 export const InputComponent = styled.input`
-  width: 100%;
-  height: 50px;
+  width: 80%;
+  max-width: 900px;
+  height: 60px;
   padding: 12px;
   outline: none;
+  background-color: rgba(255, 255, 255, 0.74);
   border: 1px solid black;
-  border-radius: 4px;
-  font-size: 16px;
-  border-radius: 10px;
+  border-radius: 20px;
+  font-size: 20px;
 
   &::placeholder {
-    color: #6f6f6f;
+    color: #1f1d1d;
   }
 `
 

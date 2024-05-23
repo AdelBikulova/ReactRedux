@@ -5,17 +5,18 @@ interface ButtonComponentProps {
 }
 
 export const ButtonComponent = styled.button<ButtonComponentProps>`
-  width: auto;
+  width: 50%;
+  max-width: 200px;
   height: 60px;
   outline: none;
-  border: 2px solid #2f5a6e;
-  border-radius: 10px;
+  border: none;
+  margin-top: -80px;
+  margin-left: 50vw;
+  border-radius: 20px;
   padding: 10px;
-  /* background-color: #1f27f5; */
-  background: ${({ disabled }) => (disabled ? "grey" : "#ffffff")};
-  color: #010708;
-  font-size: 30px;
-  margin: 5px;
+  background: ${({ disabled }) => (disabled ? "grey" : "#1973c8;")};
+  color: #f3f7fa;
+  font-size: 26px;
   cursor: pointer;
 
   &:focus {
