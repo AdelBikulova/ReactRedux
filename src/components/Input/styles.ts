@@ -20,7 +20,7 @@ export const InputComponent = styled.input`
   height: 60px;
   padding: 12px;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.74);
+  background-color: rgba(255, 255, 255, 0.75);
   border: 1px solid black;
   border-radius: 20px;
   font-size: 20px;
